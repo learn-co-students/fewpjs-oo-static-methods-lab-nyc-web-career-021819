@@ -9,7 +9,7 @@ class Formatter {
   }
 
   static titleize(string) {
-    let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ]
+    let exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     let result = [];
     let arrayOfWords = string.split( " " )
     for (let n = 0; n < arrayOfWords.length; n++ ) {
